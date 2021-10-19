@@ -4,21 +4,21 @@ a) Gaussian Naive Bayes
 
 ConfusionMatrix:
 
-[[ 6  0  0  0  0]
- [ 0  4  0  0  0]
- [ 0  0  4  0  0]
- [ 0  0  0 16  1]
- [ 1  0  2  0 16]]
+[[ 4  0  0  0  0]
+ [ 0  3  0  0  0]
+ [ 0  0  1  0  0]
+ [ 0  0  0 16  0]
+ [ 6  1  2  0 17]]
 
-DrugA => Precision=0.86, Recall=1.0, F1=0.92
-DrugB => Precision=1.0, Recall=1.0, F1=1.0
-DrugC => Precision=0.67, Recall=1.0, F1=0.8
+DrugA => Precision=0.4, Recall=1.0, F1=0.5714285714285715
+DrugB => Precision=0.75, Recall=1.0, F1=0.8571428571428571
+DrugC => Precision=0.3333333333333333, Recall=1.0, F1=0.5
 DrugX => Precision=1.0, Recall=1.0, F1=1.0
-DrugY => Precision=0.94, Recall=1.0, F1=0.97
+DrugY => Precision=1.0, Recall=0.6538461538461539, F1=0.7906976744186047
 
-Accuracy=0.92
-Macro-average F1=0.9163325563325564
-Weighted-average F1=0.9222439782439783
+Accuracy=0.82
+Macro-average F1=0.7438538205980068
+Weighted-average F1=0.8383056478405316
 
 
 ----------------------------------------------
@@ -27,11 +27,11 @@ b) Base Decision Tree
 
 ConfusionMatrix:
 
-[[ 6  0  0  0  0]
- [ 0  4  0  0  0]
- [ 0  0  4  0  0]
- [ 0  0  0 17  0]
- [ 0  0  0  0 19]]
+[[ 4  0  0  0  0]
+ [ 0  3  0  0  0]
+ [ 0  0  1  0  0]
+ [ 0  0  0 16  0]
+ [ 0  0  0  0 26]]
 
 DrugA => Precision=1.0, Recall=1.0, F1=1.0
 DrugB => Precision=1.0, Recall=1.0, F1=1.0
@@ -53,11 +53,11 @@ Best hyperparameters found by the gridsearch:{'criterion': 'gini', 'max_depth': 
 
 ConfusionMatrix:
 
-[[ 6  0  0  0  0]
- [ 0  4  0  0  0]
- [ 0  0  4  0  0]
- [ 0  0  0 17  0]
- [ 0  0  0  0 19]]
+[[ 4  0  0  0  0]
+ [ 0  3  0  0  0]
+ [ 0  0  1  0  0]
+ [ 0  0  0 16  0]
+ [ 0  0  0  0 26]]
 
 DrugA => Precision=1.0, Recall=1.0, F1=1.0
 DrugB => Precision=1.0, Recall=1.0, F1=1.0
@@ -76,21 +76,21 @@ d) Perceptron
 
 ConfusionMatrix:
 
-[[ 4  0  0  1  1]
- [ 3  0  0  1  0]
- [ 0  0  0  2  2]
- [ 1  0  0 15  1]
- [ 2  0  0  2 15]]
+[[ 0  0  0  0  4]
+ [ 0  0  0  1  2]
+ [ 0  0  0  0  1]
+ [ 0  0  0 10  6]
+ [ 0  0  0  0 26]]
 
-DrugA => Precision=0.4, Recall=1.0, F1=0.57
-DrugB => Precision=nan, Recall=0.0, F1=nan
-DrugC => Precision=nan, Recall=0.0, F1=nan
-DrugX => Precision=0.71, Recall=1.0, F1=0.83
-DrugY => Precision=0.79, Recall=1.0, F1=0.88
+DrugA => Precision=0.0, Recall=0.0, F1=0.0
+DrugB => Precision=0.0, Recall=0.0, F1=0.0
+DrugC => Precision=0.0, Recall=0.0, F1=0.0
+DrugX => Precision=0.9090909090909091, Recall=0.625, F1=0.7407407407407406
+DrugY => Precision=0.6666666666666666, Recall=1.0, F1=0.8
 
-Accuracy=0.68
-Macro-average F1=0.41578947368421043
-Weighted-average F1=0.6284210526315789
+Accuracy=0.72
+Macro-average F1=0.30814814814814817
+Weighted-average F1=0.6530370370370371
 
 
 ----------------------------------------------
@@ -99,21 +99,21 @@ e) Multi-Layered Perceptron
 
 ConfusionMatrix:
 
-[[ 0  0  0  2  4]
- [ 0  0  0  1  3]
- [ 0  0  0  0  4]
- [ 0  0  0 10  7]
- [ 0  0  0  0 19]]
+[[ 0  0  0  1  3]
+ [ 0  0  0  3  0]
+ [ 0  0  0  0  1]
+ [ 0  0  0 12  4]
+ [ 0  0  0  2 24]]
 
-DrugA => Precision=nan, Recall=0.0, F1=nan
-DrugB => Precision=nan, Recall=0.0, F1=nan
-DrugC => Precision=nan, Recall=0.0, F1=nan
-DrugX => Precision=0.77, Recall=1.0, F1=0.87
-DrugY => Precision=0.51, Recall=1.0, F1=0.68
+DrugA => Precision=0.0, Recall=0.0, F1=0.0
+DrugB => Precision=0.0, Recall=0.0, F1=0.0
+DrugC => Precision=0.0, Recall=0.0, F1=0.0
+DrugX => Precision=0.6666666666666666, Recall=0.75, F1=0.7058823529411765
+DrugY => Precision=0.75, Recall=0.9230769230769231, F1=0.8275862068965517
 
-Accuracy=0.58
-Macro-average F1=0.2690476190476191
-Weighted-average F1=0.48452380952380947
+Accuracy=0.72
+Macro-average F1=0.30669371196754563
+Weighted-average F1=0.6562271805273834
 
 
 ----------------------------------------------
@@ -125,21 +125,21 @@ Best hyperparameters found by the gridsearch:{'activation': 'tanh', 'hidden_laye
 
 ConfusionMatrix:
 
-[[ 4  0  0  1  1]
- [ 0  2  0  0  2]
- [ 1  0  0  1  2]
- [ 0  0  0 16  1]
- [ 0  0  0  0 19]]
+[[ 1  1  0  0  2]
+ [ 0  3  0  0  0]
+ [ 0  0  0  1  0]
+ [ 0  0  0 15  1]
+ [ 1  1  0  2 22]]
 
-DrugA => Precision=0.8, Recall=1.0, F1=0.89
-DrugB => Precision=1.0, Recall=0.0, F1=0.0
-DrugC => Precision=nan, Recall=0.0, F1=nan
-DrugX => Precision=0.89, Recall=1.0, F1=0.94
-DrugY => Precision=0.76, Recall=1.0, F1=0.86
+DrugA => Precision=0.5, Recall=0.25, F1=0.3333333333333333
+DrugB => Precision=0.6, Recall=1.0, F1=0.7499999999999999
+DrugC => Precision=0.0, Recall=0.0, F1=0.0
+DrugX => Precision=0.8333333333333334, Recall=0.9375, F1=0.8823529411764706
+DrugY => Precision=0.88, Recall=0.8461538461538461, F1=0.8627450980392156
 
 Accuracy=0.82
-Macro-average F1=0.6343722943722944
-Weighted-average F1=0.7796450216450217
+Macro-average F1=0.5656862745098039
+Weighted-average F1=0.8026470588235293
 
 
 
@@ -149,89 +149,95 @@ Weighted-average F1=0.7796450216450217
 Averages and Standard deviations 
 *********************************************
 
-
-Accuracy list: [0.92 0.92 0.92 0.92 0.92 0.92 0.92 0.92 0.92 0.92]
-Macro-average F1 List: [0.91633256 0.91633256 0.91633256 0.91633256 0.91633256 0.91633256
- 0.91633256 0.91633256 0.91633256 0.91633256]
-Weighted-average F1 list: [0.92224398 0.92224398 0.92224398 0.92224398 0.92224398 0.92224398
- 0.92224398 0.92224398 0.92224398 0.92224398]
-
 ----------------------------------------------
 Gaussian Naive Bayes
 ----------------------------------------------
-Average Accuracy = 0.9200000000000002	 Standard deviation = 1.1102230246251565e-16
-Average Macro-average F1 = 0.9163325563325563	 Standard deviation Macro-average F1 = 1.1102230246251565e-16
-Average Weighted-average F1 = 0.9222439782439784	 Standard deviation Weighted-average F1 = 1.1102230246251565e-16
 
 
+Accuracy list: [0.82 0.82 0.82 0.82 0.82 0.82 0.82 0.82 0.82 0.82]
+Macro-average F1 List: [0.74385382 0.74385382 0.74385382 0.74385382 0.74385382 0.74385382
+ 0.74385382 0.74385382 0.74385382 0.74385382]
+Weighted-average F1 list: [0.83830565 0.83830565 0.83830565 0.83830565 0.83830565 0.83830565
+ 0.83830565 0.83830565 0.83830565 0.83830565]
 
-Accuracy list: [1. 1. 1. 1. 1. 1. 1. 1. 1. 1.]
-Macro-average F1 List: [1. 1. 1. 1. 1. 1. 1. 1. 1. 1.]
-Weighted-average F1 list: [1. 1. 1. 1. 1. 1. 1. 1. 1. 1.]
+Average Accuracy = 0.82	 Standard deviation = 0.0
+Average Macro-average F1 = 0.7438538205980068	 Standard deviation Macro-average F1 = 0.0
+Average Weighted-average F1 = 0.8383056478405317	 Standard deviation Weighted-average F1 = 1.1102230246251565e-16
+
 
 ----------------------------------------------
 Base Decision Tree
 ----------------------------------------------
-Average Accuracy = 1.0	 Standard deviation = 0.0
-Average Macro-average F1 = 1.0	 Standard deviation Macro-average F1 = 0.0
-Average Weighted-average F1 = 1.0	 Standard deviation Weighted-average F1 = 0.0
-
 
 
 Accuracy list: [1. 1. 1. 1. 1. 1. 1. 1. 1. 1.]
 Macro-average F1 List: [1. 1. 1. 1. 1. 1. 1. 1. 1. 1.]
 Weighted-average F1 list: [1. 1. 1. 1. 1. 1. 1. 1. 1. 1.]
 
-----------------------------------------------
-Top Decision Tree
-----------------------------------------------
 Average Accuracy = 1.0	 Standard deviation = 0.0
 Average Macro-average F1 = 1.0	 Standard deviation Macro-average F1 = 0.0
 Average Weighted-average F1 = 1.0	 Standard deviation Weighted-average F1 = 0.0
 
 
+----------------------------------------------
+Top Decision Tree
+----------------------------------------------
 
-Accuracy list: [0.68 0.68 0.68 0.68 0.68 0.68 0.68 0.68 0.68 0.68]
-Macro-average F1 List: [0.41578947 0.41578947 0.41578947 0.41578947 0.41578947 0.41578947
- 0.41578947 0.41578947 0.41578947 0.41578947]
-Weighted-average F1 list: [0.62842105 0.62842105 0.62842105 0.62842105 0.62842105 0.62842105
- 0.62842105 0.62842105 0.62842105 0.62842105]
+
+Accuracy list: [1. 1. 1. 1. 1. 1. 1. 1. 1. 1.]
+Macro-average F1 List: [1. 1. 1. 1. 1. 1. 1. 1. 1. 1.]
+Weighted-average F1 list: [1. 1. 1. 1. 1. 1. 1. 1. 1. 1.]
+
+Average Accuracy = 1.0	 Standard deviation = 0.0
+Average Macro-average F1 = 1.0	 Standard deviation Macro-average F1 = 0.0
+Average Weighted-average F1 = 1.0	 Standard deviation Weighted-average F1 = 0.0
+
 
 ----------------------------------------------
 Perceptron
 ----------------------------------------------
-Average Accuracy = 0.6799999999999999	 Standard deviation = 1.1102230246251565e-16
-Average Macro-average F1 = 0.41578947368421043	 Standard deviation Macro-average F1 = 0.0
-Average Weighted-average F1 = 0.6284210526315788	 Standard deviation Weighted-average F1 = 1.1102230246251565e-16
 
 
+Accuracy list: [0.72 0.72 0.72 0.72 0.72 0.72 0.72 0.72 0.72 0.72]
+Macro-average F1 List: [0.30814815 0.30814815 0.30814815 0.30814815 0.30814815 0.30814815
+ 0.30814815 0.30814815 0.30814815 0.30814815]
+Weighted-average F1 list: [0.65303704 0.65303704 0.65303704 0.65303704 0.65303704 0.65303704
+ 0.65303704 0.65303704 0.65303704 0.65303704]
 
-Accuracy list: [0.58 0.58 0.58 0.58 0.58 0.58 0.58 0.58 0.54 0.58]
-Macro-average F1 List: [0.26721408 0.26721408 0.26721408 0.2638009  0.26721408 0.26904762
- 0.26721408 0.26721408 0.24733208 0.26721408]
-Weighted-average F1 list: [0.48190029 0.48190029 0.48190029 0.47769231 0.48190029 0.48452381
- 0.48190029 0.48190029 0.44622724 0.48190029]
+Average Accuracy = 0.72	 Standard deviation = 0.0
+Average Macro-average F1 = 0.30814814814814817	 Standard deviation Macro-average F1 = 0.0
+Average Weighted-average F1 = 0.6530370370370371	 Standard deviation Weighted-average F1 = 0.0
+
 
 ----------------------------------------------
 Multi-Layered Perceptron
 ----------------------------------------------
-Average Accuracy = 0.576	 Standard deviation = 0.011999999999999976
-Average Macro-average F1 = 0.26506791355898873	 Standard deviation Macro-average F1 = 0.006035274104109588
-Average Weighted-average F1 = 0.47817454141953863	 Standard deviation Weighted-average F1 = 0.010762639741574941
 
 
+Accuracy list: [0.74 0.72 0.72 0.74 0.72 0.72 0.72 0.72 0.74 0.72]
+Macro-average F1 List: [0.31494607 0.30556391 0.30556391 0.31494607 0.30556391 0.30669371
+ 0.30556391 0.30669371 0.31494607 0.3030104 ]
+Weighted-average F1 list: [0.67340524 0.65732331 0.65732331 0.67340524 0.65732331 0.65622718
+ 0.65732331 0.65622718 0.67340524 0.649896  ]
 
-Accuracy list: [0.8  0.78 0.8  0.8  0.8  0.8  0.82 0.78 0.76 0.78]
-Macro-average F1 List: [0.65081402 0.50764791 0.57407039 0.64858586 0.56891775 0.55960133
- 0.62070283 0.63324675 0.51694084 0.61959596]
-Weighted-average F1 list: [0.77216162 0.72548341 0.7612685  0.76537374 0.75103896 0.75333776
- 0.78116883 0.76680519 0.71829149 0.75753535]
+Average Accuracy = 0.726	 Standard deviation = 0.009165151389911688
+Average Macro-average F1 = 0.30834916752297825	 Standard deviation Macro-average F1 = 0.0044223472734790485
+Average Weighted-average F1 = 0.661185931500314	 Standard deviation Weighted-average F1 = 0.008271969079160117
+
 
 ----------------------------------------------
 Top Multi-Layered Perceptron
 ----------------------------------------------
-Average Accuracy = 0.792	 Standard deviation = 0.015999999999999993
-Average Macro-average F1 = 0.5900123632257694	 Standard deviation Macro-average F1 = 0.04955937260129762
-Average Weighted-average F1 = 0.9222439782439784	 Standard deviation Weighted-average F1 = 0.018731304243381375
+
+
+Accuracy list: [0.92 0.88 0.88 0.86 0.86 0.88 0.86 0.9  0.86 0.92]
+Macro-average F1 List: [0.71024787 0.70686275 0.6680112  0.67966387 0.5932493  0.6680112
+ 0.6010455  0.70080586 0.72756863 0.68530489]
+Weighted-average F1 list: [0.90507584 0.87137255 0.86635294 0.85489076 0.83859104 0.86635294
+ 0.83994773 0.88590476 0.8491098  0.90593838]
+
+Average Accuracy = 0.882	 Standard deviation = 0.022715633383201116
+Average Macro-average F1 = 0.6740771066890934	 Standard deviation Macro-average F1 = 0.04249306705776741
+Average Weighted-average F1 = 0.8383056478405317	 Standard deviation Weighted-average F1 = 0.023088041796076653
 
 
