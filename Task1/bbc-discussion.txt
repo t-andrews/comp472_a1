@@ -1,0 +1,17 @@
+11.
+
+a)According to the pre-analyssis that was done, we know that the BBC dataset is pretty well balanced and well represented (all the classes have a large and similar amount of files).
+As a result, the accuracy would be a good metric to look at. The accuracy gives the % of instances of the test set the algorithm correctly classifies. Since we are dealing with a 
+high volume of data it is important to know how much of it the model classifies correctly. When comparing accuracy to other metrics like recall and precision, we conclude
+that accuracy is more useful since the latter metrics are more useful when certain classes are more important, which is not the case in task 1.
+
+
+
+
+b) Regarding the performance of steps 8-10 when compared to step 7, some results were different but others stayed relatively the same. The reason for this is that the
+only parameter that was changed was the smoothing value. As a result, values that took into account the amount of word-tokens in specific classes changed since
+the word count was modified by the smoothing. We can see that the amount of words with frequency 0 went from a large amount all the way down to 0 since the values
+were smoothed out. We noted a slightly better performance when the smoothing value was 0.0001 (the lowest). This is due to the fact that it reduces noise in the
+dataset by keeping words with 0 occurrences at lower values. This noise happens since there are certain words that appear in one class more than another, this
+is something that the model can use to better identify correct classes. When smoothing is high, words that don't appear at all in a class will start to appear more,
+reducing the ability of the model to correctly identify a class based on the words associated to it.
