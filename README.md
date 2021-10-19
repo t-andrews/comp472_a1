@@ -2,7 +2,9 @@
 https://github.com/t-andrews/comp472_a1
 
 ## Requirements
-You will need to be able to open a Jupyter notebook.
+* You will need to be able to open a Jupyter notebook
+* Have anaconda >= 3.8 installed and set as interpreter for Jupyter notebook
+
 
 ## Running Task 1
 1. Open Jupyter notebook
