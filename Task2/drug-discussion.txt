@@ -1,2 +1,1 @@
-
-When permorming step 8 the data 
+  After performing step 6 for 10 iterations, we observed that given the same model it returns the same performance every time. These results makes sense since we are using the same training and test set for each epoch.  In addition, the models that had varied hyperparameters always had the same best parameters after each iteration resulting in a minor discrepancy.
