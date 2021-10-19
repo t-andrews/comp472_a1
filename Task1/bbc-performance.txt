@@ -1,0 +1,249 @@
+
+ *******************************************************************************************************************  
+ a) 
+ MultinomialNB Default values, try 1
+ Here is the confusion matrix: 
+ b) 
+[[ 89   0   1   0   4]
+ [  0  72   2   0   0]
+ [  0   0  80   0   0]
+ [  0   0   0 109   0]
+ [  0   0   0   0  88]]
+ c) 
+ Here is the classification report: 
+              precision    recall  f1-score   support
+
+           0       1.00      0.95      0.97        94
+           1       1.00      0.97      0.99        74
+           2       0.96      1.00      0.98        80
+           3       1.00      1.00      1.00       109
+           4       0.96      1.00      0.98        88
+
+    accuracy                           0.98       445
+   macro avg       0.98      0.98      0.98       445
+weighted avg       0.98      0.98      0.98       445
+
+ d) 
+ accuracy: 0.9842696629213483
+ F1 macro average : 0.9836703670587493
+ F1 weighted average : 0.9842472970007677
+ e)
+ Prior probability of business: 0.2292134831460674
+ Prior probability of entertainment: 0.17348314606741572
+ Prior probability of politics: 0.18741573033707865
+ Prior probability of sport: 0.22966292134831462
+ Prior probability of tech: 0.1802247191011236
+ f) 
+The size of the vocabulary is: 29126
+ g)
+Number of word tokens in the class business: 77276.0
+Number of word tokens in the class entertainment: 57226.0
+Number of word tokens in the class politics: 80644.0
+Number of word tokens in the class sport: 69178.0
+Number of word tokens in the class tech: 83692.0
+ h)
+Number of word tokens in the entire corpus: 368016.0
+ i)
+Number of words with frequency 0 in class business: 18595
+Percentage: 24.06309850406336%
+Number of words with frequency 0 in class entertainment: 18769
+Percentage: 32.79802886799706%
+Number of words with frequency 0 in class politics: 19096
+Percentage: 23.67938098308616%
+Number of words with frequency 0 in class sport: 19769
+Percentage: 28.57700424990604%
+Number of words with frequency 0 in class tech: 18278
+Percentage: 21.839602351479233%
+ j)
+Number of words with frequency 1 in the entire corpus: 20980
+Percentage: 5.700839093952437%
+ k) 
+2 selected favorite words: woman and man. 
+Log-prob of woman: -9.215839708663268
+Log-prob of man: -7.83449596166885
+ *******************************************************************************************************************  
+ a) 
+ MultinomialNB Default values, try 2
+ Here is the confusion matrix: 
+ b) 
+[[ 89   0   1   0   4]
+ [  0  72   2   0   0]
+ [  0   0  80   0   0]
+ [  0   0   0 109   0]
+ [  0   0   0   0  88]]
+ c) 
+ Here is the classification report: 
+              precision    recall  f1-score   support
+
+           0       1.00      0.95      0.97        94
+           1       1.00      0.97      0.99        74
+           2       0.96      1.00      0.98        80
+           3       1.00      1.00      1.00       109
+           4       0.96      1.00      0.98        88
+
+    accuracy                           0.98       445
+   macro avg       0.98      0.98      0.98       445
+weighted avg       0.98      0.98      0.98       445
+
+ d) 
+ accuracy: 0.9842696629213483
+ F1 macro average : 0.9836703670587493
+ F1 weighted average : 0.9842472970007677
+ e)
+ Prior probability of business: 0.2292134831460674
+ Prior probability of entertainment: 0.17348314606741572
+ Prior probability of politics: 0.18741573033707865
+ Prior probability of sport: 0.22966292134831462
+ Prior probability of tech: 0.1802247191011236
+ f) 
+The size of the vocabulary is: 29126
+ g)
+Number of word tokens in the class business: 77276.0
+Number of word tokens in the class entertainment: 57226.0
+Number of word tokens in the class politics: 80644.0
+Number of word tokens in the class sport: 69178.0
+Number of word tokens in the class tech: 83692.0
+ h)
+Number of word tokens in the entire corpus: 368016.0
+ i)
+Number of words with frequency 0 in class business: 18595
+Percentage: 24.06309850406336%
+Number of words with frequency 0 in class entertainment: 18769
+Percentage: 32.79802886799706%
+Number of words with frequency 0 in class politics: 19096
+Percentage: 23.67938098308616%
+Number of words with frequency 0 in class sport: 19769
+Percentage: 28.57700424990604%
+Number of words with frequency 0 in class tech: 18278
+Percentage: 21.839602351479233%
+ j)
+Number of words with frequency 1 in the entire corpus: 20980
+Percentage: 5.700839093952437%
+ k) 
+2 selected favorite words: woman and man. 
+Log-prob of woman: -9.215839708663268
+Log-prob of man: -7.83449596166885
+ *******************************************************************************************************************  
+ a) 
+ MultinomialNB Default values, try 3
+ Here is the confusion matrix: 
+ b) 
+[[ 89   0   2   0   3]
+ [  0  73   1   0   0]
+ [  0   0  80   0   0]
+ [  0   0   0 109   0]
+ [  0   0   0   0  88]]
+ c) 
+ Here is the classification report: 
+              precision    recall  f1-score   support
+
+           0       1.00      0.95      0.97        94
+           1       1.00      0.99      0.99        74
+           2       0.96      1.00      0.98        80
+           3       1.00      1.00      1.00       109
+           4       0.97      1.00      0.98        88
+
+    accuracy                           0.99       445
+   macro avg       0.99      0.99      0.99       445
+weighted avg       0.99      0.99      0.99       445
+
+ d) 
+ accuracy: 0.9865168539325843
+ F1 macro average : 0.9861420380056414
+ F1 weighted average : 0.986474246416392
+ e)
+ Prior probability of business: 0.2292134831460674
+ Prior probability of entertainment: 0.17348314606741572
+ Prior probability of politics: 0.18741573033707865
+ Prior probability of sport: 0.22966292134831462
+ Prior probability of tech: 0.1802247191011236
+ f) 
+The size of the vocabulary is: 29126
+ g)
+Number of word tokens in the class business: 77278.91260000003
+Number of word tokens in the class entertainment: 57228.91260000001
+Number of word tokens in the class politics: 80646.91260000001
+Number of word tokens in the class sport: 69180.91260000001
+Number of word tokens in the class tech: 83694.91260000001
+ h)
+Number of word tokens in the entire corpus: 368018.9126
+ i)
+Number of words with frequency 0 in class business: 0
+Percentage: 0.0%
+Number of words with frequency 0 in class entertainment: 0
+Percentage: 0.0%
+Number of words with frequency 0 in class politics: 0
+Percentage: 0.0%
+Number of words with frequency 0 in class sport: 0
+Percentage: 0.0%
+Number of words with frequency 0 in class tech: 0
+Percentage: 0.0%
+ j)
+Number of words with frequency 1 in the entire corpus: 0
+Percentage: 0.0%
+ k) 
+2 selected favorite words: woman and man. 
+Log-prob of woman: -9.003987002893457
+Log-prob of man: -7.526809765387667
+ *******************************************************************************************************************  
+ a) 
+ MultinomialNB Default values, try 4
+ Here is the confusion matrix: 
+ b) 
+[[ 89   0   1   0   4]
+ [  0  72   2   0   0]
+ [  0   0  80   0   0]
+ [  0   0   0 109   0]
+ [  0   0   0   0  88]]
+ c) 
+ Here is the classification report: 
+              precision    recall  f1-score   support
+
+           0       1.00      0.95      0.97        94
+           1       1.00      0.97      0.99        74
+           2       0.96      1.00      0.98        80
+           3       1.00      1.00      1.00       109
+           4       0.96      1.00      0.98        88
+
+    accuracy                           0.98       445
+   macro avg       0.98      0.98      0.98       445
+weighted avg       0.98      0.98      0.98       445
+
+ d) 
+ accuracy: 0.9842696629213483
+ F1 macro average : 0.9836703670587493
+ F1 weighted average : 0.9842472970007677
+ e)
+ Prior probability of business: 0.2292134831460674
+ Prior probability of entertainment: 0.17348314606741572
+ Prior probability of politics: 0.18741573033707865
+ Prior probability of sport: 0.22966292134831462
+ Prior probability of tech: 0.1802247191011236
+ f) 
+The size of the vocabulary is: 29126
+ g)
+Number of word tokens in the class business: 103489.40000000001
+Number of word tokens in the class entertainment: 83439.4
+Number of word tokens in the class politics: 106857.40000000001
+Number of word tokens in the class sport: 95391.4
+Number of word tokens in the class tech: 109905.40000000001
+ h)
+Number of word tokens in the entire corpus: 394229.4
+ i)
+Number of words with frequency 0 in class business: 0
+Percentage: 0.0%
+Number of words with frequency 0 in class entertainment: 0
+Percentage: 0.0%
+Number of words with frequency 0 in class politics: 0
+Percentage: 0.0%
+Number of words with frequency 0 in class sport: 0
+Percentage: 0.0%
+Number of words with frequency 0 in class tech: 0
+Percentage: 0.0%
+ j)
+Number of words with frequency 1 in the entire corpus: 0
+Percentage: 0.0%
+ k) 
+2 selected favorite words: woman and man. 
+Log-prob of woman: -9.198514693939988
+Log-prob of man: -7.80839876561532
